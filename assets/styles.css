@@ -6,27 +6,30 @@ body {
     background-color: #141414;
 }
 
-#mainPhoto {
-    width: 400px;
-    height: 400px;
-    padding: 0 10px;
-    object-fit: cover;
-    margin-bottom: 10px;
-   border-radius: 10px;
-}
-
-.imgCarousel {
-    width: 70px;
-    height: 70px;
-    transition: all .2s ease-in-out;
+section {
+    max-width: 450px;
+    padding: 10px;
    
 }
 
-.imgCarousel:hover {
+section #mainPhoto {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #fff;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.imgCarousel {
     width: 75px;
     height: 75px;
+   
+    transition: all .2s ease-in-out;
+}
+
+.imgCarousel:hover {
     border: 2px solid #fff;
-    margin: 3px;
 }
 
 img {
