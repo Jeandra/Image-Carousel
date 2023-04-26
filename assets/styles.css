@@ -9,19 +9,22 @@ body {
 #mainPhoto {
     width: 400px;
     height: 400px;
+    padding: 0 10px;
     object-fit: cover;
     margin-bottom: 10px;
+   border-radius: 10px;
 }
 
 .imgCarousel {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     transition: all .2s ease-in-out;
+   
 }
 
 .imgCarousel:hover {
-    width: 85px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     border: 2px solid #fff;
     margin: 3px;
 }
