@@ -6,25 +6,19 @@ body {
     background-color: #141414;
 }
 
-section {
-    max-width: 450px;
-    padding: 10px;
-   
-}
-
-section #mainPhoto {
-    width: 400px;
-    height: 400px;
+ #mainPhoto {
+    width: 350px;
+    height: 350px;
     border: 2px solid #fff;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 10px;
 }
 
+
 .imgCarousel {
-    width: 75px;
-    height: 75px;
-   
+    width: 70px;
+    height: 60px;
     transition: all .2s ease-in-out;
 }
 
